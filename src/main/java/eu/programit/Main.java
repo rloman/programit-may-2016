@@ -16,13 +16,13 @@ public class Main {
 		Person raymond = new Raymond();
 		Person jeffrey = new Jeffrey();
 		Person rik = new Rik();
-//		Person remond = new Remond();
+		Person remond = new Remond();
 
 		// feature 2. add your own Person here
 		people.add(raymond);
 		people.add(jeffrey);
 		people.add(rik);
-//		people.add(remond);
+		people.add(remond);
 
 		for (Person p : people) {
 			System.out.println("Person with firstName " + p.getFirstName() + " has hobbies " + p.getHobbies());
