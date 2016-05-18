@@ -17,11 +17,13 @@ public class Main {
 		Person jeffrey = new Jeffrey();
 		Person rik = new Rik();
 		Person remond = new Remond();
+		Person hans = new Hans();
 
 		// feature 2. add your own Person here
 		people.add(raymond);
 		people.add(jeffrey);
 		people.add(rik);
+		people.add(hans);
 		people.add(remond);
 
 		for (Person p : people) {
