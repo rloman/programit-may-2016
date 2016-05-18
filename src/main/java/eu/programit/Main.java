@@ -6,6 +6,7 @@ import java.util.List;
 import eu.programit.domain.Person;
 import eu.programit.domain.Raymond;
 import eu.programit.domain.Jeffrey;
+import eu.programit.domain.Jan;
 
 public class Main {
 
@@ -16,11 +17,13 @@ public class Main {
 		// feature 1.  add your person class
 
 		Person raymond = new Raymond();
-		Person jeffrey = new Jeffrey();
+        Person jeffrey = new Jeffrey();
+        Person jan = new Jan();
 
 		// feature 2. add your own Person here
 		people.add(raymond);
-		people.add(jeffrey);
+        people.add(jeffrey);
+        people.add(jan);
 
 		for (Person p : people) {
 			System.out.println("Person with firstName " + p.getFirstName() + " has hobbies " + p.getHobbies());
