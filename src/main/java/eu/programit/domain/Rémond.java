@@ -14,7 +14,7 @@ public class Rémond extends Person {
 	public List<String> getHobbies() {
 		
 		List<String> result = new ArrayList<>();
-		result.add("running");
+		result.add("Cooking");
 		///
 		
 		return result;	
