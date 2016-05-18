@@ -18,6 +18,7 @@ public class Main {
 		Person rik = new Rik();
 		Person remond = new Remond();
 		Person hans = new Hans();
+        Person henri = new Henri(); /* TODO: Assure singleton :) */
 
 		// feature 2. add your own Person here
 		people.add(raymond);
@@ -25,6 +26,7 @@ public class Main {
 		people.add(rik);
 		people.add(hans);
 		people.add(remond);
+        people.add(henri)
 
 		for (Person p : people) {
 			System.out.println("Person with firstName " + p.getFirstName() + " has hobbies " + p.getHobbies());
@@ -32,5 +34,7 @@ public class Main {
 	}
 	
 	// feature 3. somebody (who?) whould make this jar runnable with this main class
+    
+    // feature 4. (have we discussed deployment-pipelines via Jenkins already :) 
 
 }
