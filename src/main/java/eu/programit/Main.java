@@ -18,6 +18,7 @@ public class Main {
 
 		// feature 2. add your own Person here
 		people.add(raymond);
+		
 
 		for (Person p : people) {
 			System.out.println("Person with firstName " + p.getFirstName() + " has hobbies " + p.getHobbies());
