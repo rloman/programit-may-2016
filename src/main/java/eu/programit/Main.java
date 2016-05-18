@@ -3,10 +3,7 @@ package eu.programit;
 import java.util.ArrayList;
 import java.util.List;
 
-import eu.programit.domain.Person;
-import eu.programit.domain.Raymond;
-import eu.programit.domain.Rik;
-import eu.programit.domain.Jeffrey;
+import eu.programit.domain.*;
 
 public class Main {
 
