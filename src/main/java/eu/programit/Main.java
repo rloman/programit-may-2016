@@ -3,10 +3,7 @@ package eu.programit;
 import java.util.ArrayList;
 import java.util.List;
 
-import eu.programit.domain.Person;
-import eu.programit.domain.Raymond;
-import eu.programit.domain.Rik;
-import eu.programit.domain.Jeffrey;
+import eu.programit.domain.*;
 
 public class Main {
 
@@ -19,11 +16,15 @@ public class Main {
 		Person raymond = new Raymond();
 		Person jeffrey = new Jeffrey();
 		Person rik = new Rik();
+		Person remond = new Remond();
+		Person hans = new Hans();
 
 		// feature 2. add your own Person here
 		people.add(raymond);
 		people.add(jeffrey);
 		people.add(rik);
+		people.add(remond);
+		people.add(hans);
 
 		for (Person p : people) {
 			System.out.println("Person with firstName " + p.getFirstName() + " has hobbies " + p.getHobbies());
