@@ -1,5 +1,6 @@
 package eu.programit.domain;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Leandro extends Person{
@@ -7,8 +8,8 @@ public class Leandro extends Person{
 		return "Leandro";
 	}
 	
-	public abstract List<String> getHobbies(){
-		List<String> a = new ArrayList<>;
+	public List<String> getHobbies(){
+		List<String> a = new ArrayList<>();
 		a.add("Programming JAVA");
 		a.add("Eating Icecream");
 		return a;
