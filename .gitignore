@@ -14,3 +14,8 @@ hs_err_pid*
 .classpath
 .settings
 .project
+.idea
+*.iml
+*.iml~
+*.iml-
+nieuwefile.txt
